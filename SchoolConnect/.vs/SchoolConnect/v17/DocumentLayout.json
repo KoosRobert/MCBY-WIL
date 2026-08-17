@@ -1,0 +1,648 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|c:\\users\\hp\\onedrive\\desktop\\year3\\s2\\wil\\schoolconnect\\schoolconnect\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|solutionrelative:views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|c:\\users\\hp\\onedrive\\desktop\\year3\\s2\\wil\\schoolconnect\\schoolconnect\\views\\student\\classes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|solutionrelative:views\\student\\classes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|c:\\users\\hp\\onedrive\\desktop\\year3\\s2\\wil\\schoolconnect\\schoolconnect\\views\\student\\announcements.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|solutionrelative:views\\student\\announcements.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|c:\\users\\hp\\onedrive\\desktop\\year3\\s2\\wil\\schoolconnect\\schoolconnect\\views\\student\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|solutionrelative:views\\student\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|c:\\users\\hp\\onedrive\\desktop\\year3\\s2\\wil\\schoolconnect\\schoolconnect\\views\\shared\\_studentlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|solutionrelative:views\\shared\\_studentlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|c:\\users\\hp\\onedrive\\desktop\\year3\\s2\\wil\\schoolconnect\\schoolconnect\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|c:\\users\\hp\\onedrive\\desktop\\year3\\s2\\wil\\schoolconnect\\schoolconnect\\views\\admin\\storemanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|solutionrelative:views\\admin\\storemanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|c:\\users\\hp\\onedrive\\desktop\\year3\\s2\\wil\\schoolconnect\\schoolconnect\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|c:\\users\\hp\\onedrive\\desktop\\year3\\s2\\wil\\schoolconnect\\schoolconnect\\views\\admin\\analytics.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|solutionrelative:views\\admin\\analytics.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|c:\\users\\hp\\onedrive\\desktop\\year3\\s2\\wil\\schoolconnect\\schoolconnect\\wwwroot\\css\\dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|solutionrelative:wwwroot\\css\\dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|c:\\users\\hp\\onedrive\\desktop\\year3\\s2\\wil\\schoolconnect\\schoolconnect\\views\\teacher\\aiassistant.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|solutionrelative:views\\teacher\\aiassistant.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|c:\\users\\hp\\onedrive\\desktop\\year3\\s2\\wil\\schoolconnect\\schoolconnect\\views\\teacher\\announcements.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|solutionrelative:views\\teacher\\announcements.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|c:\\users\\hp\\onedrive\\desktop\\year3\\s2\\wil\\schoolconnect\\schoolconnect\\views\\teacher\\marks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|solutionrelative:views\\teacher\\marks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|c:\\users\\hp\\onedrive\\desktop\\year3\\s2\\wil\\schoolconnect\\schoolconnect\\views\\teacher\\classes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|solutionrelative:views\\teacher\\classes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|c:\\users\\hp\\onedrive\\desktop\\year3\\s2\\wil\\schoolconnect\\schoolconnect\\controllers\\teachercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|solutionrelative:controllers\\teachercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|c:\\users\\hp\\onedrive\\desktop\\year3\\s2\\wil\\schoolconnect\\schoolconnect\\controllers\\parentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|solutionrelative:controllers\\parentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|c:\\users\\hp\\onedrive\\desktop\\year3\\s2\\wil\\schoolconnect\\schoolconnect\\views\\teacher\\messages.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|solutionrelative:views\\teacher\\messages.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|c:\\users\\hp\\onedrive\\desktop\\year3\\s2\\wil\\schoolconnect\\schoolconnect\\views\\shared\\_parentlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|solutionrelative:views\\shared\\_parentlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|c:\\users\\hp\\onedrive\\desktop\\year3\\s2\\wil\\schoolconnect\\schoolconnect\\views\\shared\\_teacherlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|solutionrelative:views\\shared\\_teacherlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|c:\\users\\hp\\onedrive\\desktop\\year3\\s2\\wil\\schoolconnect\\schoolconnect\\views\\teacher\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|solutionrelative:views\\teacher\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|c:\\users\\hp\\onedrive\\desktop\\year3\\s2\\wil\\schoolconnect\\schoolconnect\\views\\parent\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|solutionrelative:views\\parent\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|c:\\users\\hp\\onedrive\\desktop\\year3\\s2\\wil\\schoolconnect\\schoolconnect\\views\\admin\\finance.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|solutionrelative:views\\admin\\finance.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|c:\\users\\hp\\onedrive\\desktop\\year3\\s2\\wil\\schoolconnect\\schoolconnect\\views\\admin\\announcements.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|solutionrelative:views\\admin\\announcements.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|c:\\users\\hp\\onedrive\\desktop\\year3\\s2\\wil\\schoolconnect\\schoolconnect\\views\\admin\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|solutionrelative:views\\admin\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|c:\\users\\hp\\onedrive\\desktop\\year3\\s2\\wil\\schoolconnect\\schoolconnect\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|solutionrelative:views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|c:\\users\\hp\\onedrive\\desktop\\year3\\s2\\wil\\schoolconnect\\schoolconnect\\views\\parent\\store.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|solutionrelative:views\\parent\\store.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|c:\\users\\hp\\onedrive\\desktop\\year3\\s2\\wil\\schoolconnect\\schoolconnect\\views\\parent\\settings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|solutionrelative:views\\parent\\settings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|c:\\users\\hp\\onedrive\\desktop\\year3\\s2\\wil\\schoolconnect\\schoolconnect\\views\\parent\\progress.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|solutionrelative:views\\parent\\progress.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|c:\\users\\hp\\onedrive\\desktop\\year3\\s2\\wil\\schoolconnect\\schoolconnect\\views\\parent\\payments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|solutionrelative:views\\parent\\payments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|c:\\users\\hp\\onedrive\\desktop\\year3\\s2\\wil\\schoolconnect\\schoolconnect\\views\\parent\\messages.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|solutionrelative:views\\parent\\messages.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|c:\\users\\hp\\onedrive\\desktop\\year3\\s2\\wil\\schoolconnect\\schoolconnect\\views\\parent\\calendar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|solutionrelative:views\\parent\\calendar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|c:\\users\\hp\\onedrive\\desktop\\year3\\s2\\wil\\schoolconnect\\schoolconnect\\views\\parent\\aiassistant.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|solutionrelative:views\\parent\\aiassistant.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|c:\\users\\hp\\onedrive\\desktop\\year3\\s2\\wil\\schoolconnect\\schoolconnect\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|c:\\users\\hp\\onedrive\\desktop\\year3\\s2\\wil\\schoolconnect\\schoolconnect\\schoolconnect.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|solutionrelative:schoolconnect.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|c:\\users\\hp\\onedrive\\desktop\\year3\\s2\\wil\\schoolconnect\\schoolconnect\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|c:\\users\\hp\\onedrive\\desktop\\year3\\s2\\wil\\schoolconnect\\schoolconnect\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|c:\\users\\hp\\onedrive\\desktop\\year3\\s2\\wil\\schoolconnect\\schoolconnect\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|c:\\users\\hp\\onedrive\\desktop\\year3\\s2\\wil\\schoolconnect\\schoolconnect\\views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3587FF1C-24E3-47EF-88D5-5EAD641BA37F}|SchoolConnect.csproj|solutionrelative:views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Classes.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Views\\Student\\Classes.cshtml",
+              "RelativeDocumentMoniker": "Views\\Student\\Classes.cshtml",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Views\\Student\\Classes.cshtml",
+              "RelativeToolTip": "Views\\Student\\Classes.cshtml",
+              "ViewState": "AgIAALQAAAAAAAAAAAAwwNUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-17T12:06:00.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Announcements.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Views\\Student\\Announcements.cshtml",
+              "RelativeDocumentMoniker": "Views\\Student\\Announcements.cshtml",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Views\\Student\\Announcements.cshtml",
+              "RelativeToolTip": "Views\\Student\\Announcements.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-17T12:05:37.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Views\\Student\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Student\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Views\\Student\\Dashboard.cshtml",
+              "RelativeToolTip": "Views\\Student\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-17T12:05:03.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_StudentLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Views\\Shared\\_StudentLayout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_StudentLayout.cshtml",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Views\\Shared\\_StudentLayout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_StudentLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-17T12:04:05.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAAHEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-05T13:00:58.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Controllers\\StudentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T12:03:00.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StoreManagement.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Views\\Admin\\StoreManagement.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\StoreManagement.cshtml",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Views\\Admin\\StoreManagement.cshtml",
+              "RelativeToolTip": "Views\\Admin\\StoreManagement.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAP0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-17T12:00:17.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Announcements.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Views\\Teacher\\Announcements.cshtml",
+              "RelativeDocumentMoniker": "Views\\Teacher\\Announcements.cshtml",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Views\\Teacher\\Announcements.cshtml",
+              "RelativeToolTip": "Views\\Teacher\\Announcements.cshtml",
+              "ViewState": "AgIAAIsAAAAAAAAAAAAwwKkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-05T13:44:29.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Marks.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Views\\Teacher\\Marks.cshtml",
+              "RelativeDocumentMoniker": "Views\\Teacher\\Marks.cshtml",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Views\\Teacher\\Marks.cshtml",
+              "RelativeToolTip": "Views\\Teacher\\Marks.cshtml",
+              "ViewState": "AgIAAPQAAAAAAAAAAAAwwBIBAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-05T13:43:34.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "dashboard.css",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\wwwroot\\css\\dashboard.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\dashboard.css",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\wwwroot\\css\\dashboard.css",
+              "RelativeToolTip": "wwwroot\\css\\dashboard.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-08-04T10:04:17.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Analytics.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Views\\Admin\\Analytics.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Analytics.cshtml",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Views\\Admin\\Analytics.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Analytics.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T06:27:52.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AIAssistant.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Views\\Teacher\\AIAssistant.cshtml",
+              "RelativeDocumentMoniker": "Views\\Teacher\\AIAssistant.cshtml",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Views\\Teacher\\AIAssistant.cshtml",
+              "RelativeToolTip": "Views\\Teacher\\AIAssistant.cshtml",
+              "ViewState": "AgIAAK8AAAAAAAAAAAAAABMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-05T13:45:03.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T06:28:32.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Classes.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Views\\Teacher\\Classes.cshtml",
+              "RelativeDocumentMoniker": "Views\\Teacher\\Classes.cshtml",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Views\\Teacher\\Classes.cshtml",
+              "RelativeToolTip": "Views\\Teacher\\Classes.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAN8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-05T13:42:09.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Messages.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Views\\Teacher\\Messages.cshtml",
+              "RelativeDocumentMoniker": "Views\\Teacher\\Messages.cshtml",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Views\\Teacher\\Messages.cshtml",
+              "RelativeToolTip": "Views\\Teacher\\Messages.cshtml",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAwwJkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-05T13:40:55.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ParentController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Controllers\\ParentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ParentController.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Controllers\\ParentController.cs",
+              "RelativeToolTip": "Controllers\\ParentController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T06:28:12.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TeacherController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Controllers\\TeacherController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TeacherController.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Controllers\\TeacherController.cs",
+              "RelativeToolTip": "Controllers\\TeacherController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-05T13:29:15.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_TeacherLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Views\\Shared\\_TeacherLayout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_TeacherLayout.cshtml",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Views\\Shared\\_TeacherLayout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_TeacherLayout.cshtml",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAwwKoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-05T13:28:16.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Views\\Teacher\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Teacher\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Views\\Teacher\\Dashboard.cshtml",
+              "RelativeToolTip": "Views\\Teacher\\Dashboard.cshtml",
+              "ViewState": "AgIAAMAAAAAAAAAAAAAwwMkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-05T13:33:40.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Views\\Parent\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Parent\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Views\\Parent\\Dashboard.cshtml",
+              "RelativeToolTip": "Views\\Parent\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T06:23:10.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_ParentLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Views\\Shared\\_ParentLayout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ParentLayout.cshtml",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Views\\Shared\\_ParentLayout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ParentLayout.cshtml",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAwwJYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-05T13:00:00.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Finance.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Views\\Admin\\Finance.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Finance.cshtml",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Views\\Admin\\Finance.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Finance.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T06:27:40.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Announcements.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Views\\Admin\\Announcements.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Announcements.cshtml",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Views\\Admin\\Announcements.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Announcements.cshtml",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAwwLoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T06:27:25.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Users.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Views\\Admin\\Users.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Users.cshtml",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Views\\Admin\\Users.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Users.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKMBAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T06:27:14.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T06:26:58.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Store.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Views\\Parent\\Store.cshtml",
+              "RelativeDocumentMoniker": "Views\\Parent\\Store.cshtml",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Views\\Parent\\Store.cshtml",
+              "RelativeToolTip": "Views\\Parent\\Store.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T06:24:41.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Settings.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Views\\Parent\\Settings.cshtml",
+              "RelativeDocumentMoniker": "Views\\Parent\\Settings.cshtml",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Views\\Parent\\Settings.cshtml",
+              "RelativeToolTip": "Views\\Parent\\Settings.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T06:25:10.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Progress.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Views\\Parent\\Progress.cshtml",
+              "RelativeDocumentMoniker": "Views\\Parent\\Progress.cshtml",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Views\\Parent\\Progress.cshtml",
+              "RelativeToolTip": "Views\\Parent\\Progress.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T06:24:11.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Payments.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Views\\Parent\\Payments.cshtml",
+              "RelativeDocumentMoniker": "Views\\Parent\\Payments.cshtml",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Views\\Parent\\Payments.cshtml",
+              "RelativeToolTip": "Views\\Parent\\Payments.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T06:24:26.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Messages.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Views\\Parent\\Messages.cshtml",
+              "RelativeDocumentMoniker": "Views\\Parent\\Messages.cshtml",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Views\\Parent\\Messages.cshtml",
+              "RelativeToolTip": "Views\\Parent\\Messages.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T06:23:28.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Calendar.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Views\\Parent\\Calendar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Parent\\Calendar.cshtml",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Views\\Parent\\Calendar.cshtml",
+              "RelativeToolTip": "Views\\Parent\\Calendar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T06:23:41.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AIAssistant.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Views\\Parent\\AIAssistant.cshtml",
+              "RelativeDocumentMoniker": "Views\\Parent\\AIAssistant.cshtml",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Views\\Parent\\AIAssistant.cshtml",
+              "RelativeToolTip": "Views\\Parent\\AIAssistant.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T06:24:55.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-04T10:01:45.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "SchoolConnect.csproj",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\SchoolConnect.csproj",
+              "RelativeDocumentMoniker": "SchoolConnect.csproj",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\SchoolConnect.csproj",
+              "RelativeToolTip": "SchoolConnect.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-04T10:54:28.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-04T10:53:51.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-04T10:53:46.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-04T10:08:26.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Views\\Home\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Year3\\S2\\WIL\\SchoolConnect\\SchoolConnect\\Views\\Home\\Dashboard.cshtml",
+              "RelativeToolTip": "Views\\Home\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-04T10:10:31.154Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

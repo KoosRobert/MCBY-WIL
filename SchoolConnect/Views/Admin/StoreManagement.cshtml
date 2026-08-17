@@ -1,0 +1,254 @@
+﻿@{
+    Layout = "_AdminLayout";
+    ViewData["Title"] = "Store Management";
+}
+
+<div class="container-fluid">
+
+    <div class="d-flex justify-content-between align-items-center mb-4">
+
+        <div>
+            <h2 class="fw-bold">School Store Management</h2>
+
+            <p class="text-muted mb-0">
+                Add, edit and remove products available in the school store.
+            </p>
+        </div>
+
+        <button class="btn btn-primary">
+            <i class="bi bi-plus-circle"></i>
+            Add Product
+        </button>
+
+    </div>
+
+
+    <!-- Store Statistics -->
+
+    <div class="row mb-4">
+
+        <div class="col-lg-4">
+
+            <div class="dashboard-card">
+
+                <h3>24</h3>
+
+                <p>Products</p>
+
+            </div>
+
+        </div>
+
+        <div class="col-lg-4">
+
+            <div class="dashboard-card">
+
+                <h3>18</h3>
+
+                <p>Products In Stock</p>
+
+            </div>
+
+        </div>
+
+        <div class="col-lg-4">
+
+            <div class="dashboard-card">
+
+                <h3>6</h3>
+
+                <p>Low Stock Items</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Products -->
+
+    <div class="card custom-card">
+
+        <div class="card-header">
+
+            <div class="d-flex justify-content-between align-items-center">
+
+                <strong>Store Products</strong>
+
+                <input type="text"
+                       class="form-control"
+                       placeholder="Search products..."
+                       style="max-width: 250px;" />
+
+            </div>
+
+        </div>
+
+
+        <div class="card-body">
+
+            <div class="table-responsive">
+
+                <table class="table table-hover align-middle">
+
+                    <thead class="table-light">
+
+                        <tr>
+
+                            <th>Product</th>
+                            <th>Category</th>
+                            <th>Price</th>
+                            <th>Stock</th>
+                            <th>Status</th>
+                            <th>Actions</th>
+
+                        </tr>
+
+                    </thead>
+
+
+                    <tbody>
+
+                        <tr>
+
+                            <td>
+                                <strong>School Shirt</strong>
+                            </td>
+
+                            <td>Uniform</td>
+
+                            <td>R250</td>
+
+                            <td>35</td>
+
+                            <td>
+                                <span class="badge bg-success">
+                                    In Stock
+                                </span>
+                            </td>
+
+                            <td>
+
+                                <button class="btn btn-sm btn-outline-primary">
+                                    <i class="bi bi-pencil"></i>
+                                </button>
+
+                                <button class="btn btn-sm btn-outline-danger">
+                                    <i class="bi bi-trash"></i>
+                                </button>
+
+                            </td>
+
+                        </tr>
+
+
+                        <tr>
+
+                            <td>
+                                <strong>School Tie</strong>
+                            </td>
+
+                            <td>Uniform</td>
+
+                            <td>R120</td>
+
+                            <td>18</td>
+
+                            <td>
+                                <span class="badge bg-success">
+                                    In Stock
+                                </span>
+                            </td>
+
+                            <td>
+
+                                <button class="btn btn-sm btn-outline-primary">
+                                    <i class="bi bi-pencil"></i>
+                                </button>
+
+                                <button class="btn btn-sm btn-outline-danger">
+                                    <i class="bi bi-trash"></i>
+                                </button>
+
+                            </td>
+
+                        </tr>
+
+
+                        <tr>
+
+                            <td>
+                                <strong>School Tracksuit</strong>
+                            </td>
+
+                            <td>Sports</td>
+
+                            <td>R650</td>
+
+                            <td>5</td>
+
+                            <td>
+                                <span class="badge bg-warning text-dark">
+                                    Low Stock
+                                </span>
+                            </td>
+
+                            <td>
+
+                                <button class="btn btn-sm btn-outline-primary">
+                                    <i class="bi bi-pencil"></i>
+                                </button>
+
+                                <button class="btn btn-sm btn-outline-danger">
+                                    <i class="bi bi-trash"></i>
+                                </button>
+
+                            </td>
+
+                        </tr>
+
+
+                        <tr>
+
+                            <td>
+                                <strong>School Backpack</strong>
+                            </td>
+
+                            <td>Stationery</td>
+
+                            <td>R450</td>
+
+                            <td>22</td>
+
+                            <td>
+                                <span class="badge bg-success">
+                                    In Stock
+                                </span>
+                            </td>
+
+                            <td>
+
+                                <button class="btn btn-sm btn-outline-primary">
+                                    <i class="bi bi-pencil"></i>
+                                </button>
+
+                                <button class="btn btn-sm btn-outline-danger">
+                                    <i class="bi bi-trash"></i>
+                                </button>
+
+                            </td>
+
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>

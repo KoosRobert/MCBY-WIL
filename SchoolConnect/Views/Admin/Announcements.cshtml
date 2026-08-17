@@ -1,0 +1,187 @@
+﻿@{
+    Layout = "_AdminLayout";
+    ViewData["Title"] = "Announcements";
+}
+
+<div class="container-fluid">
+
+    <div class="d-flex justify-content-between align-items-center mb-4">
+
+        <div>
+
+            <h2 class="fw-bold">Announcements</h2>
+
+            <p class="text-muted mb-0">
+                Create and manage school announcements.
+            </p>
+
+        </div>
+
+        <button class="btn btn-primary">
+
+            <i class="bi bi-plus-circle-fill"></i>
+
+            New Announcement
+
+        </button>
+
+    </div>
+
+    <div class="row">
+
+        <!-- Create Announcement -->
+
+        <div class="col-lg-4">
+
+            <div class="card custom-card">
+
+                <div class="card-header">
+
+                    Create Announcement
+
+                </div>
+
+                <div class="card-body">
+
+                    <div class="mb-3">
+
+                        <label class="form-label">Title</label>
+
+                        <input type="text"
+                               class="form-control"
+                               placeholder="Announcement title">
+
+                    </div>
+
+                    <div class="mb-3">
+
+                        <label class="form-label">Audience</label>
+
+                        <select class="form-select">
+
+                            <option>All Parents</option>
+                            <option>Teachers</option>
+                            <option>Learners</option>
+                            <option>Grade 8 Parents</option>
+
+                        </select>
+
+                    </div>
+
+                    <div class="mb-3">
+
+                        <label class="form-label">Message</label>
+
+                        <textarea class="form-control"
+                                  rows="6"
+                                  placeholder="Type your announcement..."></textarea>
+
+                    </div>
+
+                    <button class="btn btn-success w-100">
+
+                        <i class="bi bi-send-fill"></i>
+
+                        Publish Announcement
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Recent Announcements -->
+
+        <div class="col-lg-8">
+
+            <div class="card custom-card">
+
+                <div class="card-header">
+
+                    Recent Announcements
+
+                </div>
+
+                <div class="card-body">
+
+                    <div class="announcement-item">
+
+                        <h5 class="text-primary">
+
+                            Parent Meeting Reminder
+
+                        </h5>
+
+                        <small class="text-muted">
+
+                            Published: 4 August 2026 • All Parents
+
+                        </small>
+
+                        <p class="mt-2">
+
+                            A reminder that the Parent Meeting will take place on Thursday at 18:00 in the school hall.
+
+                        </p>
+
+                    </div>
+
+                    <hr>
+
+                    <div class="announcement-item">
+
+                        <h5 class="text-success">
+
+                            Sports Day
+
+                        </h5>
+
+                        <small class="text-muted">
+
+                            Published: 2 August 2026 • All Learners
+
+                        </small>
+
+                        <p class="mt-2">
+
+                            Sports Day will be held next Wednesday. Learners should arrive in full sports uniform.
+
+                        </p>
+
+                    </div>
+
+                    <hr>
+
+                    <div class="announcement-item">
+
+                        <h5 class="text-danger">
+
+                            School Closed
+
+                        </h5>
+
+                        <small class="text-muted">
+
+                            Published: 30 July 2026 • Everyone
+
+                        </small>
+
+                        <p class="mt-2">
+
+                            The school will be closed on Friday due to scheduled maintenance.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>

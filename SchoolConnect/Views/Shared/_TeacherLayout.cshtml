@@ -1,0 +1,171 @@
+﻿<
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - SchoolConnect+</title>
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/dashboard.css" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+          rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <!-- Sidebar -->
+        <nav class="sidebar">
+
+            <div class="logo">
+
+                <h3>🎓 SchoolConnect+</h3>
+
+                <small>Teacher Portal</small>
+
+            </div>
+
+            <ul>
+
+                <li>
+                    <a asp-controller="Teacher" asp-action="Dashboard">
+                        <i class="bi bi-house-fill"></i>
+                        Dashboard
+                    </a>
+                </li>
+
+                <li>
+                    <a asp-controller="Teacher" asp-action="Messages">
+                        <i class="bi bi-chat-dots-fill"></i>
+                        Messages
+                    </a>
+                </li>
+
+                <li>
+                    <a asp-controller="Teacher" asp-action="Classes">
+                        <i class="bi bi-journal-bookmark-fill"></i>
+                        My Classes
+                    </a>
+                </li>
+
+                <li>
+                    <a asp-controller="Teacher" asp-action="Marks">
+                        <i class="bi bi-pencil-square"></i>
+                        Marks & Attendance
+                    </a>
+                </li>
+
+                <li>
+                    <a asp-controller="Teacher" asp-action="Announcements">
+                        <i class="bi bi-megaphone-fill"></i>
+                        Announcements
+                    </a>
+                </li>
+
+                <li>
+                    <a asp-controller="Teacher" asp-action="AIAssistant">
+                        <i class="bi bi-robot"></i>
+                        AI Assistant
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+        <!-- Main Content -->
+
+        <div class="main">
+
+            <header class="topbar">
+
+                <div>
+
+                    <h4 class="mb-0 fw-bold">
+                        SchoolConnect+
+                    </h4>
+
+                </div>
+
+                <div class="d-flex align-items-center gap-2">
+
+                    <!-- Parent -->
+
+                    <a asp-controller="Parent"
+                       asp-action="Dashboard"
+                       class="btn btn-outline-primary btn-sm">
+
+                        <i class="bi bi-person-fill"></i>
+
+                        Parent
+
+                    </a>
+
+                    <!-- Teacher -->
+
+                    <a asp-controller="Teacher"
+                       asp-action="Dashboard"
+                       class="btn btn-success btn-sm">
+
+                        <i class="bi bi-mortarboard-fill"></i>
+
+                        Teacher
+
+                    </a>
+
+                    <!-- Admin -->
+
+                    <a asp-controller="Admin"
+                       asp-action="Dashboard"
+                       class="btn btn-primary btn-sm">
+
+                        <i class="bi bi-shield-lock-fill"></i>
+
+                        Admin
+
+                    </a>
+
+                    <!-- Notifications -->
+
+                    <button class="btn btn-light position-relative">
+
+                        <i class="bi bi-bell-fill"></i>
+
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                            3
+                        </span>
+
+                    </button>
+
+                    <!-- User -->
+
+                    <button class="btn btn-light">
+
+                        <i class="bi bi-person-circle"></i>
+
+                        Teacher
+
+                    </button>
+
+                </div>
+
+            </header>
+
+            <main>
+
+                @RenderBody()
+
+            </main>
+
+        </div>
+
+    </div>
+
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

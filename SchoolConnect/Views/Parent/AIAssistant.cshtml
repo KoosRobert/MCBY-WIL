@@ -1,0 +1,163 @@
+﻿@{
+    Layout = "_ParentLayout";
+    ViewData["Title"] = "AI Assistant";
+}
+
+<div class="container-fluid">
+
+    <div class="mb-4">
+        <h2 class="fw-bold">AI School Assistant 🤖</h2>
+        <p class="text-muted">
+            Ask questions about school policies, events, payments, homework and more.
+        </p>
+    </div>
+
+    <div class="row">
+
+        <!-- Suggested Questions -->
+
+        <div class="col-lg-4">
+
+            <div class="card custom-card mb-4">
+
+                <div class="card-header">
+
+                    Quick Questions
+
+                </div>
+
+                <div class="card-body d-grid gap-2">
+
+                    <button class="btn btn-outline-primary">
+                        📅 When is the next Parent Meeting?
+                    </button>
+
+                    <button class="btn btn-outline-primary">
+                        💳 What school fees are still outstanding?
+                    </button>
+
+                    <button class="btn btn-outline-primary">
+                        📚 Show my child's latest results.
+                    </button>
+
+                    <button class="btn btn-outline-primary">
+                        🚌 What time does school start tomorrow?
+                    </button>
+
+                    <button class="btn btn-outline-primary">
+                        🎒 What stationery is required this term?
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="card custom-card">
+
+                <div class="card-header">
+
+                    AI Features
+
+                </div>
+
+                <div class="card-body">
+
+                    ✅ School Information<br>
+                    ✅ Homework Assistance<br>
+                    ✅ Fee Enquiries<br>
+                    ✅ Event Information<br>
+                    ✅ Policy Questions<br>
+                    ✅ Contact Details
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Chat Window -->
+
+        <div class="col-lg-8">
+
+            <div class="card custom-card">
+
+                <div class="card-header">
+
+                    SchoolConnect AI
+
+                </div>
+
+                <div class="card-body ai-chat">
+
+                    <div class="message received">
+
+                        👋 Hello Brandon!
+
+                        <br><br>
+
+                        I'm your SchoolConnect AI Assistant.
+
+                        <br><br>
+
+                        I can help with:
+
+                        <ul>
+                            <li>School events</li>
+                            <li>Payments</li>
+                            <li>Learner progress</li>
+                            <li>School policies</li>
+                            <li>General questions</li>
+                        </ul>
+
+                    </div>
+
+                    <div class="message sent">
+
+                        When is the next Parent Meeting?
+
+                    </div>
+
+                    <div class="message received">
+
+                        📅 The next Parent Meeting is scheduled for:
+
+                        <br><br>
+
+                        <strong>Thursday, 14 August</strong>
+
+                        <br>
+
+                        18:00
+
+                        <br>
+
+                        School Hall
+
+                    </div>
+
+                </div>
+
+                <div class="card-footer">
+
+                    <div class="input-group">
+
+                        <input class="form-control"
+                               placeholder="Ask the AI Assistant anything..." />
+
+                        <button class="btn btn-primary">
+
+                            <i class="bi bi-send-fill"></i>
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>

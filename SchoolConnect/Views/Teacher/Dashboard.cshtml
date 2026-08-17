@@ -1,0 +1,202 @@
+﻿@{
+    Layout = "_TeacherLayout";
+    ViewData["Title"] = "Teacher Dashboard";
+}
+
+<div class="container-fluid">
+
+    <div class="mb-4">
+
+        <h2 class="fw-bold">Teacher Dashboard</h2>
+
+        <p class="text-muted">
+            Welcome back! Here's an overview of your teaching schedule and activities.
+        </p>
+
+    </div>
+
+    <div class="row g-4 mb-4">
+
+        <div class="col-lg-3 col-md-6">
+
+            <div class="dashboard-card">
+
+                <div class="icon-circle bg-primary">
+
+                    <i class="bi bi-journal-bookmark-fill"></i>
+
+                </div>
+
+                <h2>5</h2>
+
+                <p>Today's Classes</p>
+
+            </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+
+            <div class="dashboard-card">
+
+                <div class="icon-circle bg-success">
+
+                    <i class="bi bi-chat-dots-fill"></i>
+
+                </div>
+
+                <h2>12</h2>
+
+                <p>New Messages</p>
+
+            </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+
+            <div class="dashboard-card">
+
+                <div class="icon-circle bg-warning">
+
+                    <i class="bi bi-pencil-square"></i>
+
+                </div>
+
+                <h2>28</h2>
+
+                <p>Assignments to Mark</p>
+
+            </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+
+            <div class="dashboard-card">
+
+                <div class="icon-circle bg-danger">
+
+                    <i class="bi bi-person-x-fill"></i>
+
+                </div>
+
+                <h2>4</h2>
+
+                <p>Absent Learners</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="col-lg-8">
+
+            <div class="card custom-card">
+
+                <div class="card-header">
+
+                    Today's Timetable
+
+                </div>
+
+                <div class="card-body">
+
+                    <table class="table table-hover">
+
+                        <thead class="table-light">
+
+                            <tr>
+
+                                <th>Time</th>
+                                <th>Class</th>
+                                <th>Subject</th>
+                                <th>Room</th>
+
+                            </tr>
+
+                        </thead>
+
+                        <tbody>
+
+                            <tr>
+
+                                <td>08:00</td>
+                                <td>Grade 8A</td>
+                                <td>Mathematics</td>
+                                <td>B12</td>
+
+                            </tr>
+
+                            <tr>
+
+                                <td>09:00</td>
+                                <td>Grade 9B</td>
+                                <td>Mathematics</td>
+                                <td>B12</td>
+
+                            </tr>
+
+                            <tr>
+
+                                <td>11:00</td>
+                                <td>Grade 10A</td>
+                                <td>Mathematics</td>
+                                <td>B14</td>
+
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-lg-4">
+
+            <div class="card custom-card">
+
+                <div class="card-header">
+
+                    Quick Actions
+
+                </div>
+
+                <div class="card-body d-grid gap-2">
+
+                    <a asp-controller="Teacher" asp-action="Messages" class="btn btn-primary">
+                        Messages
+                    </a>
+
+                    <a asp-controller="Teacher" asp-action="Classes" class="btn btn-success">
+                        My Classes
+                    </a>
+
+                    <a asp-controller="Teacher" asp-action="Marks" class="btn btn-warning">
+                        Marks & Attendance
+                    </a>
+
+                    <a asp-controller="Teacher" asp-action="Announcements" class="btn btn-info text-white">
+                        Announcements
+                    </a>
+
+                    <a asp-controller="Teacher" asp-action="AIAssistant" class="btn btn-dark">
+                        AI Assistant
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>

@@ -1,0 +1,275 @@
+﻿@{
+    Layout = "_TeacherLayout";
+    ViewData["Title"] = "Marks & Attendance";
+}
+
+<div class="container-fluid">
+
+    <div class="d-flex justify-content-between align-items-center mb-4">
+
+        <div>
+
+            <h2 class="fw-bold">Marks & Attendance</h2>
+
+            <p class="text-muted mb-0">
+                Record learner attendance and assessment marks.
+            </p>
+
+        </div>
+
+        <button class="btn btn-success">
+
+            <i class="bi bi-floppy-fill"></i>
+
+            Save Changes
+
+        </button>
+
+    </div>
+
+    <div class="card custom-card">
+
+        <div class="card-header d-flex justify-content-between align-items-center">
+
+            <span>Grade 8A - Mathematics</span>
+
+            <button class="btn btn-primary btn-sm">
+
+                <i class="bi bi-download"></i>
+
+                Export
+
+            </button>
+
+        </div>
+
+        <div class="card-body">
+
+            <div class="table-responsive">
+
+                <table class="table table-hover align-middle">
+
+                    <thead class="table-light">
+
+                        <tr>
+
+                            <th>Learner</th>
+                            <th>Attendance</th>
+                            <th>Test 1</th>
+                            <th>Assignment</th>
+                            <th>Average</th>
+                            <th>Actions</th>
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+
+                            <td>Emma Johnson</td>
+
+                            <td>
+                                <span class="badge bg-success">
+                                    Present
+                                </span>
+                            </td>
+
+                            <td>82%</td>
+
+                            <td>90%</td>
+
+                            <td><strong>86%</strong></td>
+
+                            <td>
+
+                                <button class="btn btn-outline-primary btn-sm">
+
+                                    <i class="bi bi-pencil"></i>
+
+                                </button>
+
+                            </td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>Daniel Brown</td>
+
+                            <td>
+
+                                <span class="badge bg-danger">
+
+                                    Absent
+
+                                </span>
+
+                            </td>
+
+                            <td>74%</td>
+
+                            <td>80%</td>
+
+                            <td><strong>77%</strong></td>
+
+                            <td>
+
+                                <button class="btn btn-outline-primary btn-sm">
+
+                                    <i class="bi bi-pencil"></i>
+
+                                </button>
+
+                            </td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>Ryan Naidoo</td>
+
+                            <td>
+
+                                <span class="badge bg-success">
+
+                                    Present
+
+                                </span>
+
+                            </td>
+
+                            <td>93%</td>
+
+                            <td>95%</td>
+
+                            <td><strong>94%</strong></td>
+
+                            <td>
+
+                                <button class="btn btn-outline-primary btn-sm">
+
+                                    <i class="bi bi-pencil"></i>
+
+                                </button>
+
+                            </td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>Sophie Smith</td>
+
+                            <td>
+
+                                <span class="badge bg-success">
+
+                                    Present
+
+                                </span>
+
+                            </td>
+
+                            <td>88%</td>
+
+                            <td>91%</td>
+
+                            <td><strong>90%</strong></td>
+
+                            <td>
+
+                                <button class="btn btn-outline-primary btn-sm">
+
+                                    <i class="bi bi-pencil"></i>
+
+                                </button>
+
+                            </td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>Jason Williams</td>
+
+                            <td>
+
+                                <span class="badge bg-warning text-dark">
+
+                                    Late
+
+                                </span>
+
+                            </td>
+
+                            <td>69%</td>
+
+                            <td>73%</td>
+
+                            <td><strong>71%</strong></td>
+
+                            <td>
+
+                                <button class="btn btn-outline-primary btn-sm">
+
+                                    <i class="bi bi-pencil"></i>
+
+                                </button>
+
+                            </td>
+
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="row mt-4">
+
+        <div class="col-lg-4">
+
+            <div class="dashboard-card">
+
+                <h3>94%</h3>
+
+                <p>Class Attendance</p>
+
+            </div>
+
+        </div>
+
+        <div class="col-lg-4">
+
+            <div class="dashboard-card">
+
+                <h3>83%</h3>
+
+                <p>Class Average</p>
+
+            </div>
+
+        </div>
+
+        <div class="col-lg-4">
+
+            <div class="dashboard-card">
+
+                <h3>35</h3>
+
+                <p>Total Learners</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>

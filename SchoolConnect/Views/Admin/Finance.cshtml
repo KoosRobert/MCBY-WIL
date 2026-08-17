@@ -1,0 +1,233 @@
+﻿@{
+    Layout = "_AdminLayout";
+    ViewData["Title"] = "Finance";
+}
+
+<div class="container-fluid">
+
+    <div class="d-flex justify-content-between align-items-center mb-4">
+
+        <div>
+
+            <h2 class="fw-bold">Finance Dashboard</h2>
+
+            <p class="text-muted mb-0">
+                Monitor school income, outstanding fees and recent payments.
+            </p>
+
+        </div>
+
+        <button class="btn btn-success">
+
+            <i class="bi bi-download"></i>
+
+            Export Report
+
+        </button>
+
+    </div>
+
+    <!-- Summary Cards -->
+
+    <div class="row g-4 mb-4">
+
+        <div class="col-lg-3 col-md-6">
+
+            <div class="dashboard-card">
+
+                <div class="icon-circle bg-success">
+                    <i class="bi bi-cash-stack"></i>
+                </div>
+
+                <h2>R2.4M</h2>
+
+                <p>Total Income</p>
+
+            </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+
+            <div class="dashboard-card">
+
+                <div class="icon-circle bg-danger">
+                    <i class="bi bi-credit-card-fill"></i>
+                </div>
+
+                <h2>R85 600</h2>
+
+                <p>Outstanding Fees</p>
+
+            </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+
+            <div class="dashboard-card">
+
+                <div class="icon-circle bg-primary">
+                    <i class="bi bi-wallet2"></i>
+                </div>
+
+                <h2>965</h2>
+
+                <p>Payments Received</p>
+
+            </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+
+            <div class="dashboard-card">
+
+                <div class="icon-circle bg-warning">
+                    <i class="bi bi-exclamation-circle-fill"></i>
+                </div>
+
+                <h2>42</h2>
+
+                <p>Overdue Accounts</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <!-- Outstanding Accounts -->
+
+        <div class="col-lg-8">
+
+            <div class="card custom-card">
+
+                <div class="card-header">
+
+                    Outstanding Accounts
+
+                </div>
+
+                <div class="card-body">
+
+                    <table class="table table-hover">
+
+                        <thead class="table-light">
+
+                            <tr>
+
+                                <th>Parent</th>
+                                <th>Learner</th>
+                                <th>Outstanding</th>
+                                <th>Status</th>
+
+                            </tr>
+
+                        </thead>
+
+                        <tbody>
+
+                            <tr>
+
+                                <td>Sarah Johnson</td>
+
+                                <td>Emma Johnson</td>
+
+                                <td>R3 500</td>
+
+                                <td>
+                                    <span class="badge bg-danger">
+                                        Overdue
+                                    </span>
+                                </td>
+
+                            </tr>
+
+                            <tr>
+
+                                <td>Michael Brown</td>
+
+                                <td>Daniel Brown</td>
+
+                                <td>R1 850</td>
+
+                                <td>
+                                    <span class="badge bg-warning text-dark">
+                                        Due Soon
+                                    </span>
+                                </td>
+
+                            </tr>
+
+                            <tr>
+
+                                <td>Lisa Naidoo</td>
+
+                                <td>Ryan Naidoo</td>
+
+                                <td>R950</td>
+
+                                <td>
+                                    <span class="badge bg-success">
+                                        Payment Plan
+                                    </span>
+                                </td>
+
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Monthly Summary -->
+
+        <div class="col-lg-4">
+
+            <div class="card custom-card">
+
+                <div class="card-header">
+
+                    Monthly Summary
+
+                </div>
+
+                <div class="card-body">
+
+                    <p><strong>Income:</strong> R315 000</p>
+
+                    <p><strong>Outstanding:</strong> R85 600</p>
+
+                    <p><strong>Collected:</strong> 92%</p>
+
+                    <hr>
+
+                    <button class="btn btn-primary w-100 mb-2">
+
+                        Send Fee Reminders
+
+                    </button>
+
+                    <button class="btn btn-outline-primary w-100">
+
+                        View Payment History
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>

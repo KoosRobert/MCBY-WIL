@@ -1,0 +1,217 @@
+﻿@{
+    Layout = "_ParentLayout";
+    ViewData["Title"] = "Payments";
+}
+
+<div class="container-fluid">
+
+    <div class="mb-4">
+        <h2 class="fw-bold">School Payments</h2>
+        <p class="text-muted">
+            View outstanding balances, payment history and make secure online payments.
+        </p>
+    </div>
+
+    <div class="row g-4">
+
+        <!-- Outstanding Balance -->
+
+        <div class="col-lg-4">
+
+            <div class="card custom-card text-center">
+
+                <div class="card-body">
+
+                    <i class="bi bi-wallet2 text-primary" style="font-size:55px;"></i>
+
+                    <h5 class="mt-3">Outstanding Balance</h5>
+
+                    <h1 class="text-danger">R2 150</h1>
+
+                    <p class="text-muted">
+                        Due: 31 August 2026
+                    </p>
+
+                    <button class="btn btn-success w-100">
+                        Pay Now
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Payment Summary -->
+
+        <div class="col-lg-8">
+
+            <div class="card custom-card">
+
+                <div class="card-header">
+
+                    Payment Summary
+
+                </div>
+
+                <div class="card-body">
+
+                    <div class="row text-center">
+
+                        <div class="col-md-4">
+
+                            <h3 class="text-success">R18 450</h3>
+
+                            <small>Total Paid</small>
+
+                        </div>
+
+                        <div class="col-md-4">
+
+                            <h3 class="text-warning">R2 150</h3>
+
+                            <small>Outstanding</small>
+
+                        </div>
+
+                        <div class="col-md-4">
+
+                            <h3 class="text-primary">8</h3>
+
+                            <small>Payments Made</small>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Payment History -->
+
+    <div class="card custom-card mt-4">
+
+        <div class="card-header">
+
+            Recent Transactions
+
+        </div>
+
+        <div class="card-body">
+
+            <table class="table table-hover align-middle">
+
+                <thead class="table-light">
+
+                    <tr>
+
+                        <th>Date</th>
+
+                        <th>Description</th>
+
+                        <th>Amount</th>
+
+                        <th>Status</th>
+
+                        <th>Receipt</th>
+
+                    </tr>
+
+                </thead>
+
+                <tbody>
+
+                    <tr>
+
+                        <td>02 Aug 2026</td>
+
+                        <td>School Fees - August</td>
+
+                        <td>R2 500</td>
+
+                        <td>
+                            <span class="badge bg-success">Paid</span>
+                        </td>
+
+                        <td>
+                            <button class="btn btn-outline-primary btn-sm">
+                                Download
+                            </button>
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>15 Jul 2026</td>
+
+                        <td>Sports Tour</td>
+
+                        <td>R850</td>
+
+                        <td>
+                            <span class="badge bg-success">Paid</span>
+                        </td>
+
+                        <td>
+                            <button class="btn btn-outline-primary btn-sm">
+                                Download
+                            </button>
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>30 Jun 2026</td>
+
+                        <td>Uniform Purchase</td>
+
+                        <td>R1 200</td>
+
+                        <td>
+                            <span class="badge bg-success">Paid</span>
+                        </td>
+
+                        <td>
+                            <button class="btn btn-outline-primary btn-sm">
+                                Download
+                            </button>
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>01 Jun 2026</td>
+
+                        <td>School Fees - June</td>
+
+                        <td>R2 500</td>
+
+                        <td>
+                            <span class="badge bg-success">Paid</span>
+                        </td>
+
+                        <td>
+                            <button class="btn btn-outline-primary btn-sm">
+                                Download
+                            </button>
+                        </td>
+
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </div>
+
+</div>

@@ -1,0 +1,229 @@
+﻿@{
+    Layout = "_AdminLayout";
+    ViewData["Title"] = "Admin Dashboard";
+}
+
+<div class="container-fluid">
+
+    <div class="mb-4">
+        <h2 class="fw-bold">Administrator Dashboard</h2>
+        <p class="text-muted">
+            Welcome back. Here's an overview of your school today.
+        </p>
+    </div>
+
+    <!-- Summary Cards -->
+
+    <div class="row g-4 mb-4">
+
+        <div class="col-lg-3 col-md-6">
+
+            <div class="dashboard-card">
+
+                <div class="icon-circle bg-primary">
+                    <i class="bi bi-people-fill"></i>
+                </div>
+
+                <h2>1 245</h2>
+
+                <p>Total Learners</p>
+
+            </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+
+            <div class="dashboard-card">
+
+                <div class="icon-circle bg-success">
+                    <i class="bi bi-person-badge-fill"></i>
+                </div>
+
+                <h2>87</h2>
+
+                <p>Teachers</p>
+
+            </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+
+            <div class="dashboard-card">
+
+                <div class="icon-circle bg-warning">
+                    <i class="bi bi-credit-card-fill"></i>
+                </div>
+
+                <h2>R85 600</h2>
+
+                <p>Outstanding Fees</p>
+
+            </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+
+            <div class="dashboard-card">
+
+                <div class="icon-circle bg-danger">
+                    <i class="bi bi-exclamation-triangle-fill"></i>
+                </div>
+
+                <h2>6</h2>
+
+                <p>Pending Requests</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <!-- Left -->
+
+        <div class="col-lg-8">
+
+            <div class="card custom-card mb-4">
+
+                <div class="card-header">
+
+                    Recent Activity
+
+                </div>
+
+                <div class="card-body">
+
+                    <table class="table table-hover">
+
+                        <thead>
+
+                            <tr>
+
+                                <th>Time</th>
+                                <th>Activity</th>
+                                <th>User</th>
+
+                            </tr>
+
+                        </thead>
+
+                        <tbody>
+
+                            <tr>
+
+                                <td>09:15</td>
+                                <td>New learner registered</td>
+                                <td>Admissions Office</td>
+
+                            </tr>
+
+                            <tr>
+
+                                <td>10:00</td>
+                                <td>Announcement published</td>
+                                <td>Principal</td>
+
+                            </tr>
+
+                            <tr>
+
+                                <td>11:20</td>
+                                <td>Payment received</td>
+                                <td>Finance Office</td>
+
+                            </tr>
+
+                            <tr>
+
+                                <td>12:10</td>
+                                <td>Teacher updated marks</td>
+                                <td>Mrs Smith</td>
+
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+            </div>
+
+            <div class="card custom-card">
+
+                <div class="card-header">
+
+                    System Notifications
+
+                </div>
+
+                <div class="card-body">
+
+                    <div class="alert alert-warning">
+
+                        15 fee payments are overdue.
+
+                    </div>
+
+                    <div class="alert alert-info">
+
+                        Sports Day starts next week.
+
+                    </div>
+
+                    <div class="alert alert-success">
+
+                        Daily database backup completed successfully.
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Right -->
+
+        <div class="col-lg-4">
+
+            <div class="card custom-card">
+
+                <div class="card-header">
+
+                    Quick Actions
+
+                </div>
+
+                <div class="card-body d-grid gap-3">
+
+                    <a asp-controller="Admin" asp-action="Users" class="btn btn-primary">
+                        👥 Manage Users
+                    </a>
+
+                    <a asp-controller="Admin" asp-action="Announcements" class="btn btn-primary">
+                        📢 Announcements
+                    </a>
+
+                    <a asp-controller="Admin" asp-action="Finance" class="btn btn-primary">
+                        💳 Finance
+                    </a>
+
+                    <a asp-controller="Admin" asp-action="Analytics" class="btn btn-primary">
+                        📊 Analytics
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>

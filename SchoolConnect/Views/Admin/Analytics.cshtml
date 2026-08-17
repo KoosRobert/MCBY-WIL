@@ -1,0 +1,232 @@
+﻿@{
+    Layout = "_AdminLayout";
+    ViewData["Title"] = "Analytics";
+}
+
+<div class="container-fluid">
+
+    <div class="d-flex justify-content-between align-items-center mb-4">
+
+        <div>
+
+            <h2 class="fw-bold">Analytics Dashboard</h2>
+
+            <p class="text-muted mb-0">
+                Monitor school performance, attendance and financial insights.
+            </p>
+
+        </div>
+
+        <button class="btn btn-primary">
+
+            <i class="bi bi-download"></i>
+
+            Export Analytics
+
+        </button>
+
+    </div>
+
+    <!-- Statistics -->
+
+    <div class="row g-4 mb-4">
+
+        <div class="col-lg-3 col-md-6">
+
+            <div class="dashboard-card">
+
+                <div class="icon-circle bg-primary">
+                    <i class="bi bi-graph-up-arrow"></i>
+                </div>
+
+                <h2>94%</h2>
+
+                <p>Attendance Rate</p>
+
+            </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+
+            <div class="dashboard-card">
+
+                <div class="icon-circle bg-success">
+                    <i class="bi bi-mortarboard-fill"></i>
+                </div>
+
+                <h2>82%</h2>
+
+                <p>Average Pass Rate</p>
+
+            </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+
+            <div class="dashboard-card">
+
+                <div class="icon-circle bg-warning">
+                    <i class="bi bi-credit-card-fill"></i>
+                </div>
+
+                <h2>92%</h2>
+
+                <p>Fees Collected</p>
+
+            </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+
+            <div class="dashboard-card">
+
+                <div class="icon-circle bg-danger">
+                    <i class="bi bi-chat-dots-fill"></i>
+                </div>
+
+                <h2>1 275</h2>
+
+                <p>Messages Sent</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <!-- Charts -->
+
+        <div class="col-lg-8">
+
+            <div class="card custom-card mb-4">
+
+                <div class="card-header">
+
+                    School Performance
+
+                </div>
+
+                <div class="card-body text-center">
+
+                    <img src="https://placehold.co/900x350?text=Performance+Chart"
+                         class="img-fluid rounded">
+
+                    <p class="text-muted mt-3">
+
+                        Placeholder for academic performance chart.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="card custom-card">
+
+                <div class="card-header">
+
+                    Monthly Attendance
+
+                </div>
+
+                <div class="card-body text-center">
+
+                    <img src="https://placehold.co/900x300?text=Attendance+Graph"
+                         class="img-fluid rounded">
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Right Side -->
+
+        <div class="col-lg-4">
+
+            <div class="card custom-card mb-4">
+
+                <div class="card-header">
+
+                    Key Insights
+
+                </div>
+
+                <div class="card-body">
+
+                    <ul class="list-group list-group-flush">
+
+                        <li class="list-group-item">
+                            📈 Attendance increased by 3%.
+                        </li>
+
+                        <li class="list-group-item">
+                            🎓 Pass rate improved by 5%.
+                        </li>
+
+                        <li class="list-group-item">
+                            💳 92% of school fees collected.
+                        </li>
+
+                        <li class="list-group-item">
+                            📢 48 announcements published.
+                        </li>
+
+                        <li class="list-group-item">
+                            🤖 AI Assistant answered 860 questions.
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <div class="card custom-card">
+
+                <div class="card-header">
+
+                    System Health
+
+                </div>
+
+                <div class="card-body">
+
+                    <div class="alert alert-success">
+
+                        ✔ Database Online
+
+                    </div>
+
+                    <div class="alert alert-success">
+
+                        ✔ Server Running
+
+                    </div>
+
+                    <div class="alert alert-success">
+
+                        ✔ Backup Successful
+
+                    </div>
+
+                    <div class="alert alert-warning">
+
+                        ⚠ 2 Updates Available
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>

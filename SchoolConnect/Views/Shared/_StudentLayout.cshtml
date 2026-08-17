@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8" />
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0" />
+
+    <title>
+        @ViewData["Title"] - SchoolConnect+
+    </title>
+
+    <link rel="stylesheet"
+          href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+
+    <link rel="stylesheet"
+          href="~/css/site.css" />
+
+    <link rel="stylesheet"
+          href="~/css/dashboard.css" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+          rel="stylesheet">
+
+</head>
+
+
+<body>
+
+    <div class="wrapper">
+
+
+        <!-- Sidebar -->
+
+        <nav class="sidebar">
+
+            <div class="logo">
+
+                <h3>SchoolConnect+</h3>
+
+                <small>Student Portal</small>
+
+            </div>
+
+
+            <ul>
+
+                <li>
+
+                    <a asp-controller="Student"
+                       asp-action="Dashboard">
+
+                        <i class="bi bi-house-fill"></i>
+
+                        Dashboard
+
+                    </a>
+
+                </li>
+
+
+                <li>
+
+                    <a asp-controller="Student"
+                       asp-action="Announcements">
+
+                        <i class="bi bi-megaphone-fill"></i>
+
+                        Announcements
+
+                    </a>
+
+                </li>
+
+
+                <li>
+
+                    <a asp-controller="Student"
+                       asp-action="Classes">
+
+                        <i class="bi bi-book-fill"></i>
+
+                        My Classes
+
+                    </a>
+
+                </li>
+
+            </ul>
+
+        </nav>
+
+
+        <!-- Main -->
+
+        <div class="main">
+
+
+            <!-- Top Bar -->
+
+            <header class="topbar">
+
+                <div>
+
+                    <h4 class="mb-0 fw-bold">
+                        Student Portal
+                    </h4>
+
+                </div>
+
+
+                <div class="d-flex align-items-center gap-3">
+
+                    <button class="btn btn-light">
+
+                        <i class="bi bi-bell-fill"></i>
+
+                    </button>
+
+
+                    <span>
+
+                        <i class="bi bi-person-circle"></i>
+
+                        Student
+
+                    </span>
+
+                </div>
+
+            </header>
+
+
+            <main>
+
+                @RenderBody()
+
+            </main>
+
+        </div>
+
+    </div>
+
+
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

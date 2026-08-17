@@ -1,0 +1,255 @@
+﻿@{
+    Layout = "_ParentLayout";
+    ViewData["Title"] = "Dashboard";
+}
+
+<div class="container-fluid">
+
+    <div class="mb-4">
+        <h2 class="fw-bold">Good Morning, Brandon 👋</h2>
+        <p class="text-muted">
+            Here's everything happening at your child's school today.
+        </p>
+    </div>
+
+    <!-- SUMMARY CARDS -->
+
+    <div class="row g-4 mb-4">
+
+        <div class="col-lg-3 col-md-6">
+
+            <div class="dashboard-card">
+
+                <div class="icon-circle bg-primary">
+                    <i class="bi bi-chat-dots-fill"></i>
+                </div>
+
+                <h2>5</h2>
+
+                <p>Unread Messages</p>
+
+            </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+
+            <div class="dashboard-card">
+
+                <div class="icon-circle bg-success">
+                    <i class="bi bi-calendar-event-fill"></i>
+                </div>
+
+                <h2>3</h2>
+
+                <p>Upcoming Events</p>
+
+            </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+
+            <div class="dashboard-card">
+
+                <div class="icon-circle bg-warning">
+                    <i class="bi bi-credit-card-fill"></i>
+                </div>
+
+                <h2>R2150</h2>
+
+                <p>Outstanding Fees</p>
+
+            </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+
+            <div class="dashboard-card">
+
+                <div class="icon-circle bg-danger">
+                    <i class="bi bi-people-fill"></i>
+                </div>
+
+                <h2>2</h2>
+
+                <p>Children Linked</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- MAIN CONTENT -->
+
+    <div class="row">
+
+        <!-- LEFT -->
+
+        <div class="col-lg-8">
+
+            <!-- Emergency -->
+
+            <div class="card custom-card mb-4">
+
+                <div class="card-body">
+
+                    <h4 class="text-danger">
+
+                        🚨 Emergency Alert
+
+                    </h4>
+
+                    <p>
+
+                        School closes today at 12:00 due to severe weather.
+
+                    </p>
+
+                    <small class="text-muted">
+
+                        Updated today at 09:30
+
+                    </small>
+
+                </div>
+
+            </div>
+
+            <!-- Announcements -->
+
+            <div class="card custom-card mb-4">
+
+                <div class="card-header">
+
+                    Latest Announcements
+
+                </div>
+
+                <div class="card-body">
+
+                    <div class="announcement">
+
+                        <h5>Parent Meeting</h5>
+
+                        <p>
+                            Thursday at 18:00 in the school hall.
+                        </p>
+
+                    </div>
+
+                    <hr>
+
+                    <div class="announcement">
+
+                        <h5>Grade 8 Camp</h5>
+
+                        <p>
+                            Consent forms are now available.
+                        </p>
+
+                    </div>
+
+                    <hr>
+
+                    <div class="announcement">
+
+                        <h5>Sports Update</h5>
+
+                        <p>
+                            Rugby practice has been cancelled.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Events -->
+
+            <div class="card custom-card">
+
+                <div class="card-header">
+
+                    Upcoming Events
+
+                </div>
+
+                <div class="card-body">
+
+                    <table class="table">
+
+                        <tr>
+
+                            <td><strong>14 Aug</strong></td>
+
+                            <td>Parent Meeting</td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td><strong>20 Aug</strong></td>
+
+                            <td>Sports Day</td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td><strong>28 Aug</strong></td>
+
+                            <td>Midterm Exams</td>
+
+                        </tr>
+
+                    </table>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- RIGHT -->
+
+        <div class="col-lg-4">
+
+            <div class="card custom-card">
+
+                <div class="card-header">
+
+                    Quick Actions
+
+                </div>
+
+                <div class="card-body">
+
+                    <div class="d-grid gap-3">
+
+                        <a class="btn btn-primary">📨 Messages</a>
+
+                        <a class="btn btn-primary">📅 Calendar</a>
+
+                        <a class="btn btn-primary">📈 Learner Progress</a>
+
+                        <a class="btn btn-primary">💳 Payments</a>
+
+                        <a class="btn btn-primary">🛒 School Store</a>
+
+                        <a class="btn btn-primary">🤖 AI Assistant</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
